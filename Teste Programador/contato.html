@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="contato.css" />
+    <title>Teste Live</title>
+  </head>
+  <body>
+    <header class="header">
+      <span>
+        <img id="logo" src="./midia/triangulos.png" alt="logo" />
+        <h1>TESTE</h1>
+      </span>
+      <nav>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="cadastro.html">CADASTRO</a></li>
+        <li><a href="novidades.html">NOVIDADES</a></li>
+        <li><a href="contato.html">FALE CONOSCO</a></li>
+      </nav>
+    </header>
+    <main class="main">
+      <h1>FALE CONOSCO</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat incidunt
+        aliquid explicabo, eaque commodi, quod, libero magnam possimus quos
+        labore ad odio dolor! Accusantium deserunt ad repellat iure itaque
+        veritatis?
+      </p>
+      <form class="formulario" action="POST">
+        <div class="top">
+          <table>
+            <tr class="linha">
+              <td class="coluna"><label for="nome">NOME</label></td>
+              <td class="coluna"><label for="email">EMAIL</label></td>
+            </tr>
+            <tr class="linha">
+              <td class="coluna"><input type="text" name="nome" id="nome" /></td>
+              <td class="coluna"><input type="text" name="email" id="email" /></td>
+            </tr>
+          </table>
+        </div>
+        <div class="bottom">
+          <label for="mensagem">MENSAGEM</label>
+          <input
+            class="input-mensagem"
+            type="text"
+            name="mensagem"
+            id="mensagem"
+          />
+          <input class="botao" type="submit" value="ENVIAR" />
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
